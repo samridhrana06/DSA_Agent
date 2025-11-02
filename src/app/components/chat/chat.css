@@ -1,15 +1,11 @@
 
 .chat-container {
   position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 280px; /* Width of sidebar */
+  inset: 0 0 0 280px;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+  background: var(--bg-gradient);
   overflow: hidden;
-  box-shadow: inset 2px 0 10px rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
 }
 
